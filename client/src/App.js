@@ -4,8 +4,10 @@ import Form from './components/Form/Form';
 import Posts from './components/Posts/Posts';
 import memories from './images/memories.jpg';
 import useStyles from './styles'
+import { useDispatch } from 'react-redux';
 const App = () => {
     const classes = useStyles();
+    const dispatch = useDispatch();
 
     return (
         <Container maxWidth='lg'>
